@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">DISC</string>
+
+    <string name="q1_A_type_S">절제하는</string>
+    <string name="q1_B_type_D">강력한</string>
+    <string name="q1_C_type_C">꼼꼼한</string>
+    <string name="q1_D_type_I">표현력 있는</string>
+
+    <string name="q2_A_type_D">개척적인</string>
+    <string name="q2_B_type_C">정확한</string>
+    <string name="q2_C_type_I">흥미진진한</string>
+    <string name="q2_D_type_S">만족스러운</string>
+
+    <string name="q3_A_type_S">기꺼이 하는</string>
+    <string name="q3_B_type_I">활기 있는</string>
+    <string name="q3_C_type_D">대담한</string>
+    <string name="q3_D_type_C">정교한</string>
+
+    <string name="q4_A_type_D">논쟁을 좋아하는</string>
+    <string name="q4_B_type_C">회의적인</string>
+    <string name="q4_C_type_S">주저하는</string>
+    <string name="q4_D_type_I">예측을 모르는</string>
+
+    <string name="q5_A_type_C">공손한</string>
+    <string name="q5_B_type_I">사교적인</string>
+    <string name="q5_C_type_S">참을성이 있는</string>
+    <string name="q5_D_type_D">무서움을 모르는</string>
+
+    <string name="q6_A_type_I">설득력 있는</string>
+    <string name="q6_B_type_D">독립심이 강한</string>
+    <string name="q6_C_type_C">논리적인</string>
+    <string name="q6_D_type_S">온화한</string>
+
+    <string name="q7_A_type_C">개척적인</string>
+    <string name="q7_B_type_S">정확한</string>
+    <string name="q7_C_type_D">흥미진진한</string>
+    <string name="q7_D_type_I">만족스러운</string>
+
+    <string name="q8_A_type_I">인기 있는</string>
+    <string name="q8_B_type_D">고집이 있는</string>
+    <string name="q8_C_type_C">완벽주의자</string>
+    <string name="q8_D_type_S">인심 좋은</string>
+
+    <string name="q9_A_type_I">변화가 많은</string>
+    <string name="q9_B_type_C">수줍음을 타는</string>
+    <string name="q9_C_type_S">느긋한</string>
+    <string name="q9_D_type_D">완고한</string>
+
+    <string name="q10_A_type_C">체계적인</string>
+    <string name="q10_B_type_I">낙관적인</string>
+    <string name="q10_C_type_D">의지가 강한</string>
+    <string name="q10_D_type_S">친절한</string>
+
+    <string name="q11_A_type_D">엄격한</string>
+    <string name="q11_B_type_C">겸손한</string>
+    <string name="q11_C_type_S">상냥한</string>
+    <string name="q11_D_type_I">말주변이 좋은</string>
+
+    <string name="q12_A_type_S">호의적인</string>
+    <string name="q12_B_type_C">빈틈없는</string>
+    <string name="q12_C_type_I">놀기 좋아하는</string>
+    <string name="q12_D_type_D">의지가 강한</string>
+
+    <string name="q13_A_type_I">참신한</string>
+    <string name="q13_B_type_D">모험적인</string>
+    <string name="q13_C_type_C">절제된</string>
+    <string name="q13_D_type_S">신중한</string>
+
+    <string name="q14_A_type_C">참는</string>
+    <string name="q14_B_type_S">성실한</string>
+    <string name="q14_C_type_D">공격적인</string>
+    <string name="q14_D_type_I">매력 있는</string>
+
+    <string name="q15_A_type_I">열정적인</string>
+    <string name="q15_B_type_C">분석적인</string>
+    <string name="q15_C_type_S">동정심이 많은</string>
+    <string name="q15_D_type_D">단호한</string>
+
+    <string name="q16_A_type_D">지도력 있는</string>
+    <string name="q16_B_type_I">충동적인</string>
+    <string name="q16_C_type_S">느린</string>
+    <string name="q16_D_type_C">비판적인</string>
+
+    <string name="q17_A_type_C">일관성 있는</string>
+    <string name="q17_B_type_D">영향력 있는</string>
+    <string name="q17_C_type_I">생기 있는</string>
+    <string name="q17_D_type_S">느긋한</string>
+
+    <string name="q18_A_type_I">유력한</string>
+    <string name="q18_B_type_S">친절한</string>
+    <string name="q18_C_type_D">독립적인</string>
+    <string name="q18_D_type_C">정돈된</string>
+
+    <string name="q19_A_type_C">이상주의적인</string>
+    <string name="q19_B_type_I">평판이 좋은</string>
+    <string name="q19_C_type_S">쾌활한</string>
+    <string name="q19_D_type_D">솔직한</string>
+
+    <string name="q20_A_type_D">참을성 없는</string>
+    <string name="q20_B_type_C">진지한</string>
+    <string name="q20_C_type_S">미루는</string>
+    <string name="q20_D_type_I">감성적인</string>
+
+    <string name="q21_A_type_D">경쟁심이 있는</string>
+    <string name="q21_B_type_I">자발적인</string>
+    <string name="q21_C_type_S">충성스러운</string>
+    <string name="q21_D_type_C">사려 깊은</string>
+
+    <string name="q22_A_type_C">희생적인</string>
+    <string name="q22_B_type_S">이해심 많은</string>
+    <string name="q22_C_type_I">설득력 있는</string>
+    <string name="q22_D_type_D">용기 있는</string>
+
+    <string name="q23_A_type_S">의존적인</string>
+    <string name="q23_B_type_I">변덕스러운</string>
+    <string name="q23_C_type_C">절제력 있는</string>
+    <string name="q23_D_type_D">밀어붙이는</string>
+
+    <string name="q24_A_type_S">포용력 있는</string>
+    <string name="q24_B_type_C">전통적인</string>
+    <string name="q24_C_type_I">사람을 부추기는</string>
+    <string name="q24_D_type_D">이끌어가는</string>
+</resources>
