@@ -30,7 +30,7 @@ class MainAdapter(
         } }
     }
 
-    override fun getItemCount(): Int = 24 // data.size
+    override fun getItemCount(): Int = data.size
 
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
         holder.bind(data[position])
@@ -39,7 +39,6 @@ class MainAdapter(
     fun setData(answer: List<Answer>) {
         data.addAll(answer)
     }
-
 }
 
 class MainViewHolder(view: View) : RecyclerView.ViewHolder(view) {

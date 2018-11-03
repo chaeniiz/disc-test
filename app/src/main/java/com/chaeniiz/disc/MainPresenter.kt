@@ -1,13 +1,12 @@
 package com.chaeniiz.disc
 
 import android.content.Context
-import com.squareup.phrase.Phrase
 
 class MainPresenter(
     val view: MainView,
     val context: Context
 ) {
-    //var data = view.setData()
+    lateinit var data: List<Answer>
     var countOfD: Int = 0
     var countOfE: Int = 0
     var countOfS: Int = 0
@@ -19,28 +18,42 @@ class MainPresenter(
 
     private fun setQuestions() {
         view.setDataToAdapter(view.setData())
+        data = view.setData()
     }
 
-    fun onAnswer1Checked() {
-//        for(i in 0..23) {
-//            when(data[i].answer1DescType) {
-//                "D" -> countOfD++
-//                "E" -> countOfE++
-//                "S" -> countOfS++
-//                "C" -> countOfC++
-//            }
-//        }
+    fun onAnswer1Checked(answer: Answer) {
+        when(answer.answer1DescType) {
+            "D" -> countOfD++
+            "E" -> countOfE++
+            "S" -> countOfS++
+            "C" -> countOfC++
+        }
     }
 
-    fun onAnswer2Checked() {
-
+    fun onAnswer2Checked(answer: Answer) {
+        when(answer.answer2DescType) {
+            "D" -> countOfD++
+            "E" -> countOfE++
+            "S" -> countOfS++
+            "C" -> countOfC++
+        }
     }
 
-    fun onAnswer3Checked() {
-
+    fun onAnswer3Checked(answer: Answer) {
+        when(answer.answer3DescType) {
+            "D" -> countOfD++
+            "E" -> countOfE++
+            "S" -> countOfS++
+            "C" -> countOfC++
+        }
     }
 
-    fun onAnswer4Checked() {
-
+    fun onAnswer4Checked(answer: Answer) {
+        when(answer.answer4DescType) {
+            "D" -> countOfD++
+            "E" -> countOfE++
+            "S" -> countOfS++
+            "C" -> countOfC++
+        }
     }
 }

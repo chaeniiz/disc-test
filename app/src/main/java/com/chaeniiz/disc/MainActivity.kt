@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity(), MainView {
 
         recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
         recyclerView.adapter = MainAdapter(
-            { presenter.onAnswer1Checked() },
-            { presenter.onAnswer2Checked() },
-            { presenter.onAnswer3Checked() },
-            { presenter.onAnswer4Checked() }
+            { presenter.onAnswer1Checked(it) },
+            { presenter.onAnswer2Checked(it) },
+            { presenter.onAnswer3Checked(it) },
+            { presenter.onAnswer4Checked(it) }
         )
         presenter.onCreate()
     }
@@ -118,11 +118,13 @@ class MainActivity : AppCompatActivity(), MainView {
             getString(R.string.q18_B_type_S), "S",
             getString(R.string.q18_C_type_D), "D",
             getString(R.string.q18_D_type_C), "C")
-        val question19 = Answer(getString(R.string.q19_A_type_C), "C",
+        val question19 = Answer(
+            getString(R.string.q19_A_type_C), "C",
             getString(R.string.q19_B_type_I), "I",
             getString(R.string.q19_C_type_S), "S",
             getString(R.string.q19_D_type_D), "D")
-        val question20 = Answer(getString(R.string.q20_A_type_D), "D",
+        val question20 = Answer(
+            getString(R.string.q20_A_type_D), "D",
             getString(R.string.q20_B_type_C), "C",
             getString(R.string.q20_C_type_S), "S",
             getString(R.string.q20_D_type_I), "I")
@@ -154,4 +156,5 @@ class MainActivity : AppCompatActivity(), MainView {
             question16, question17, question18, question19, question20,
             question21, question22, question23, question24)
     }
+
 }
